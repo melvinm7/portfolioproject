@@ -1,0 +1,293 @@
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title{
+  color: #EEEEEE;
+  background-color: #393E46;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+/* Navbar */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #00ADB5; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 8px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #222831; /* Add a dark-grey background on hover */
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+
+
+}
+
+.navbar-brand{
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+  color: #EEEEEE;
+}
+
+.nav-link:hover{
+  color: #00ADB5;
+}
+
+
+
+/* Title */
+
+.big-heading{
+  margin-top: 100px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 900;
+  color: #EEEEEE;
+  font-size: 3rem;
+
+}
+
+.title-heading{
+  padding-top: 20px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+  color: #EEEEEE;
+}
+
+.contact-link{
+  padding-top: 100px;
+}
+
+.contact-heading{
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.contact-heading-btn{
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+  background-color: #393E46;
+  color: #EEEEEE;
+
+}
+
+.contact-heading-btn:hover{
+  background-color: #00ADB5;
+}
+
+/* Projects */
+#projects{
+  background-color: #EEEEEE;
+  text-align: center;
+  color: #222831;
+  padding-top: 75px;
+  padding-bottom: 170px;
+}
+.projects-heading{
+  margin-bottom:100px;
+  text-align: center;
+}
+
+
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+
+.btn-portfolio{
+  border-radius: 8px;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+    padding: 10px 20px 10px 20px;
+  background-color: #393E46;
+  color: #EEEEEE;
+}
+
+.btn-portfolio:hover{
+  background-color: #00ADB5;
+}
+.carousel-about{
+  padding-top: 20px;
+}
+
+.carousel-about-l{
+  padding-top: 40px;
+
+}
+
+/* About Me */
+#about{
+  color: #EEEEEE;
+  background-color: #393E46;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.about-heading{
+  padding-bottom: 20px;
+}
+.row{
+  text-align: left;
+  padding: 5% 5%;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+}
+
+.profile-img{
+  text-align: center;
+
+}
+
+.profile:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.profile{
+    border-radius: 100%;
+    box-shadow: 10px 5px 5px #222831;
+    width: 40%;
+}
+.list-style{
+  color: #EEEEEE;
+  list-style: url('images/code-solid.svg') outside;
+}
+
+
+/* Contact */
+#contact{
+  color: #393E46;
+  background-color: #EEEEEE;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+
+}
+.contact-me{
+  font-family: 'Chivo', sans-serif;
+}
+
+.h4-contact{
+  font-weight: 400;
+  font-size: 3.5rem;
+  padding-bottom: 30px;
+}
+
+.p-contact{
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.about-btn{
+  margin-top: 20px;
+}
+
+/*about page */
+.about-heading{
+  text-align: center;
+}
+
+
+
+/* LOGIN */
+.login {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+.login h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #393E46;
+    color: #ffffff;
+}
+.login form input[type="password"], .login form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+   margin-top: 20px;
+    background-color: #00ADB5;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+  background-color: #222831;
+    transition: background-color 0.2s;
+}
+/* Checklist */
+
+/* Footer */
+
+#footer{
+  text-align: center;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+  color: #EEEEEE ;
+  background-color: #393E46;
+  padding: 30px 30px;
+}
+
+.footer-txt{
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.icon-links{
+  color: #EEEEEE;
+  padding-left:15px;
+  padding-right: 15px;
+}
+.icon-links:hover{
+  color: #00ADB5;
+}
